@@ -1,0 +1,8 @@
+ansible
+google-auth
+requests
+google-cloud-secret-manager
+boto3
+botocore
+ansible[azure]
+python-terraform
