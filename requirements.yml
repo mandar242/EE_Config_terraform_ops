@@ -1,0 +1,11 @@
+---
+collections:
+  - name: amazon.aws
+    version: 7.1.0
+  - name: google.cloud
+  - name: https://github.com/mandar242/cloud.terraform.git
+    type: git
+    version: main
+  - name: https://github.com/mandar242/cloud.terraform_ops.git
+    type: git
+    version: module_plan_stash_role1
