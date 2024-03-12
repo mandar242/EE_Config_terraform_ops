@@ -1,0 +1,9 @@
+---
+version: 1
+ansible_config: ansible.cfg
+build_arg_defaults:
+  EE_BASE_IMAGE: registry.redhat.io/ansible-automation-platform/ee-minimal-rhel9:2.15.8-2
+  EE_BUILDER_IMAGE: registry.redhat.io/ansible-automation-platform/ansible-builder-rhel9:3.0.0-145
+dependencies:
+  galaxy: requirements.yml
+  python: requirements.txt
